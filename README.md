@@ -46,9 +46,7 @@ cd portfolio
 ```
 
 ## 📬 Contact  
-📧 **Email:** [mailto:22211a6642@bvrit.ac.in]  
-🔗 **Portfolio:** [https://padminig3404.github.io/My-EPortfolio/]  
-💼 **LinkedIn:** [www.linkedin.com/in/padmini-gudavalli-226245259]  
-📂 **GitHub:** [https://github.com/PadminiG3404](https://github.com/PadminiG3404)  
-
-
+📧 [**Email**](mailto:22211a6642@bvrit.ac.in)
+🔗 [**Portfolio**](https://padminig3404.github.io/My-EPortfolio/)
+💼 [**LinkedIn**](www.linkedin.com/in/padmini-gudavalli-226245259)  
+📂 [**GitHub**](https://github.com/PadminiG3404)  
