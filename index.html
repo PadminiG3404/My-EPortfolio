@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padmini Gudavalli-Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+
+    <div class="nav-full-screen" id="navFullScreen">
+        <a href="#home" onclick="closeFullScreenNav()" class="nav-link">HOME</a>
+        <a href="#about" onclick="closeFullScreenNav()" class="nav-link">ABOUT</a>
+        <a href="#qualifications" onclick="closeFullScreenNav()" class="nav-link">QUALIFICATIONS & EXPERTISE/a>
+        <a href="#tech" onclick="closeFullScreenNav()" class="nav-link">TECH STACK</a>
+        <a href="#projects" onclick="closeFullScreenNav()" class="nav-link">PROJECTS & EXPERIENCE</a>
+        <a href="#achievements" onclick="closeFullScreenNav()" class="nav-link">ACHIEVEMENTS & PUBLICATIONS </a>
+        <a href="#contact" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/padmini-gudavalli-226245259/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></svg>
+            </a>
+            <a href="https://github.com/PadminiG3404" class="social-link">
+                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/></svg>
+            </a>
+        </div>
+
+        <button class="close" onclick="closeFullScreenNav()"><img src="./assets/icons/close.svg" alt="close"></button>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#home" class="nav-link nav-link-active">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#qualifications" class="nav-link">QUALIFICATIONS & EXPERTISE</a>
+            <a href="#tech" class="nav-link">TECH STACK</a>
+            <a href="#projects" class="nav-link">PROJECTS & EXPERIENCE</a>
+            <a href="#achievements" class="nav-link">ACHIEVEMENTS & PUBLICATIONS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <button class="nav-link-btn" onclick="openFullScreenNav()"><img src="./assets/icons/menu.svg"
+                alt="menu"></button>
+    </nav>
+    <!-- navbar -->
+
+        <!-- Hero Section -->
+        <div class="animation" id="home">
+            <div class="section-hero">
+                <h1>Hi👋🏻 I'm <span class="hero-skill-heading t-gradient1">PADMINI</span></h1>
+                <br>
+                <h1>I'm an Aspiring</h1>
+                <br>
+                <h1 class="hero-skill-heading t-gradient1">
+                    <span class="typed-text"></span>
+                    <span class="cursor">|</span>
+                </h1>
+            </div>
+        
+        <div class="loader" id="loader">
+        <div class="macbook">
+          <div class="macbook__topBord">
+            <div class="macbook__display">
+              <div class="macbook__load"></div>
+            </div>
+          </div>
+          <div class="macbook__underBord">
+            <div class="macbook__keybord">
+              <div class="keybord">
+                <div class="keybord__touchbar"></div>
+                <ul class="keybord__keyBox">
+                  <li class="keybord__key key--01"></li>
+                  <li class="keybord__key key--02"></li>
+                  <li class="keybord__key key--03"></li>
+                  <li class="keybord__key key--04"></li>
+                  <li class="keybord__key key--05"></li>
+                  <li class="keybord__key key--06"></li>
+                  <li class="keybord__key key--07"></li>
+                  <li class="keybord__key key--08"></li>
+                  <li class="keybord__key key--09"></li>
+                  <li class="keybord__key key--10"></li>
+                  <li class="keybord__key key--11"></li>
+                  <li class="keybord__key key--12"></li>
+                  <li class="keybord__key key--13"></li>
+                </ul>
+                <ul class="keybord__keyBox--under">
+                  <li class="keybord__key key--14"></li>
+                  <li class="keybord__key key--15"></li>
+                  <li class="keybord__key key--16"></li>
+                  <li class="keybord__key key--17"></li>
+                  <li class="keybord__key key--18"></li>
+                  <li class="keybord__key key--19"></li>
+                  <li class="keybord__key key--20"></li>
+                  <li class="keybord__key key--21"></li>
+                  <li class="keybord__key key--22"></li>
+                  <li class="keybord__key key--23"></li>
+                  <li class="keybord__key key--24"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <!-- introduction to skills -->
+
+    <!-- section:about -->
+    <div class="section-about" id="about">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">About ME</h1>
+        </div>
+
+        <div class="section-about-details">
+            
+            <div class="section-about-texts">
+                <h1>👋🏻 Hi there! I'm <span class="highlight">Padmini Gudavalli</span></h1>
+                <br>
+                <p>
+                    I'm a pre-final year <strong>B.Tech</strong> student at <strong>BVRIT-N</strong>, specializing in <strong>Artificial Intelligence & Machine Learning (AIML)</strong>. An tech enthusiast passionate about 
+                    <strong>problem-solving, innovation, and AI-driven solutions</strong>. I have strong skills in 
+                    <strong>programming, database management, and core AI/ML domains</strong>, with experience in 
+                    <strong>developing intelligent systems, optimizing performance, and tackling complex technical challenges</strong>.
+                    A fast learner</span> with <strong>strong communication, leadership, research, 
+                    and project management skills</strong>, I'm always eager to contribute, grow, and push boundaries with 
+                    <strong>creativity and resilience</strong>.
+                </p>
+                <br>
+                <p>
+                    Let's connect and explore the endless possibilities of <strong>AI & technology!</strong> 🌍
+                </p>
+                <button class="Resume">
+                    <a href="https://drive.google.com/file/d/1dPAagRRZkgXxuQo9ZiMflEgHcGkPEd9U/view?usp=drive_link" 
+                       target="_blank" 
+                       style="color: black; text-decoration: none;">Curriculam Vitae</a>
+                  </button>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/padmini-gudavalli-226245259/" target="_blank">
+                        <img src="./assets/icons/linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/PadminiG3404" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://leetcode.com/u/padmini3404/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="social-icon">
+                    </a>
+                    <a href="https://www.codechef.com/users/padmini3404" target="_blank">
+                        <img src="./assets/icons/codechef.jpg" alt="Codechef" class="social-icon">
+                    </a>
+                    <a href="https://codeforces.com/profile/Padmini3404" target="_blank">
+                        <img src="./assets/icons/codeforces.png" alt="CodeForces" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section:about -->
+
+    <!-- Section: Qualifications & Expertise -->
+    <div class="section-qualifications" id="qualifications">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Qualifications</h1>
+            <h1>& Expertise</h1>
+        </div>
+
+        <!-- Educational Qualifications -->
+        <div class="qualifications-box">
+            <h2 class="subheading">Educational Qualifications</h2>
+            <div class="qualification">
+                <div class="qualification-text">
+                    <h3>Bachelor of Technology in CSE (AI & ML)</h3>
+                    <p><strong>Institution:</strong> B V Raju Institute of Technology, JNTUH</p>
+                    <p><strong>Duration:</strong> 2022 – 2026</p>
+                    <p><strong>CGPA:</strong> 8.81 (till 5th Sem)</p>
+                </div>
+                <div class="qualification-logos">
+                    <img src="./assets/icons/bvrit.png" alt="Degree">
+                    <img src="./assets/icons/jntuh.png" alt="AI">
+                </div>
+            </div>
+            <div class="qualification">
+                <div class="qualification-text">
+                    <h3>Intermediate Education – MPC</h3>
+                    <p><strong>Institution:</strong> Sri Chaitanya Junior College, Hyderabad</p>
+                    <p><strong>Duration:</strong> 2019 – 2021</p>
+                    <p><strong>Marks:</strong> 972</p>
+                </div>
+                <div class="qualification-logos">
+                    <img src="./assets/icons/tsbie.png" alt="School">
+                </div>
+            </div>
+            <div class="qualification">
+                <div class="qualification-text">
+                    <h3>Matriculation</h3>
+                    <p><strong>Institution:</strong> NSKK High School, Hyderabad</p>
+                    <p><strong>Year:</strong> 2019</p>
+                    <p><strong>CGPA:</strong> 9.8</p>
+                </div>
+                <div class="qualification-logos">
+                    <img src="./assets/icons/ssc.png" alt="Matriculation">
+                </div>
+            </div>
+        </div>
+
+        <!-- Skill Set -->
+        <div class="skills-box">
+            <h2 class="subheading">Skill Set</h2>
+            <div class="skills-grid">
+                <!-- AIML Expertise -->
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <img src="./assets/icons/ai.jpg" alt="AI ML">
+                        <h3>AIML Expertise</h3>
+                    </div>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                        <li>Generative AI</li>
+                    </ul>
+                </div>
+
+                <!-- Core Concepts -->
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <img src="./assets/icons/cs.png" alt="Core Concepts">
+                        <h3>Core Concepts</h3>
+                    </div>
+                    <ul>
+                        <li>Object-Oriented Programming</li>
+                        <li>Database Management</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+
+                <!-- Non-Tech Skills -->
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <img src="./assets/icons/soft.png" alt="Soft Skills">
+                        <h3>Non-Tech Skills</h3>
+                    </div>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Problem-Solving</li>
+                        <li>Project Management</li>
+                        <li>Technical Writing</li>
+                        <li>Presentation Skills</li>
+                        <li>Leadership</li>
+                        <li>Engaged in 8 Months of Research</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End of Skill Set -->
+
+    </div>
+    <!-- End of Section -->
+
+
+    <!-- section: Technologies -->
+    <div class="section-technologies" id="tech">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Tech Stack</h1>
+            <h1>What I Work With</h1>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="tech-category">
+            <h2>Programming Languages</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="./assets/icons/python.png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/java.png" alt="Java">
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/c++.png" alt="C/C++">
+                    <span>C/C++</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/r.png" alt="R">
+                    <span>R</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/sql.png" alt="SQL">
+                    <span>SQL</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Front-End Technologies -->
+        <div class="tech-category">
+            <h2>Front-End Technologies</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="./assets/icons/html.svg" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/css.svg" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/javascript.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Developer Tools -->
+        <div class="tech-category">
+            <h2>Developer Tools</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="./assets/icons/vscode.png" alt="VS Code">
+                    <span>VS Code</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/jupyter.png" alt="Jupyter">
+                    <span>Jupyter</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/googlecolab.png" alt="Google Colab">
+                    <span>Google Colab</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/github.png" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/git.png" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/pycharm.png" alt="PyCharm">
+                    <span>PyCharm</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/linux.png" alt="Linux">
+                    <span>Linux</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Libraries & Frameworks -->
+        <div class="tech-category">
+            <h2>Libraries & Frameworks</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="./assets/icons/tensorflow.png" alt="TensorFlow">
+                    <span>TensorFlow</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/pytorch.png" alt="PyTorch">
+                    <span>PyTorch</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/scikit.png" alt="Scikit-learn">
+                    <span>Scikit-learn</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/nltk.png" alt="NLTK">
+                    <span>NLTK</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/pandas.svg" alt="Pandas">
+                    <span>Pandas</span>
+                </div>
+                <div class="tech-item">
+                    <img src="./assets/icons/numpy.png" alt="NumPy">
+                    <span>NumPy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Section -->
+
+
+    <!-- section: Projects & Experience -->
+    <div class="section-portfolio" id="projects">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Projects</h1>
+            <h1>& Experience</h1>
+        </div>
+
+        <div class="section-portfolio-grid">
+            <!-- Project 1 -->
+            <a class="portfolio-card" href="#">
+                <img src="assets/projects/cache.png" alt="Vision-Language Retrieval">
+                <div class="portfolio-card-details">
+                    <h4>Cache-Optimized Vision-Language Retrieval</h4>
+                    <p>FAISS | CLIP | Deep Learning | NLP</p>
+                </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a class="portfolio-card" href="https://github.com/PadminiG3404/AI-Powered-Tax-Assistant">
+                <img src="assets/projects/tax.png" alt="AI Tax Assistant">
+                <div class="portfolio-card-details">
+                    <h4>AI-Powered Tax Assistant</h4>
+                    <p>OCR | NLP | FastAPI | Streamlit</p>
+                </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a class="portfolio-card" href="https://github.com/PadminiG3404/Data-Driven-Customer-Segmentation-using-RFM-and-Machine-Learning">
+                <img src="assets/projects/cluster.png" alt="Customer Segmentation">
+                <div class="portfolio-card-details">
+                    <h4>Customer Segmentation Model</h4>
+                    <p>K-Means | RFM Analysis | Python</p>
+                </div>
+            </a>
+
+            <!-- Project 4 -->
+            <a class="portfolio-card" href="#">
+                <img src="assets/projects/rag.jpeg" alt="Information Retrieval">
+                <div class="portfolio-card-details">
+                    <h4>Information Retrieval System</h4>
+                    <p>RAG | HuggingFace | Pinecone | GenAI</p>
+                </div>
+            </a>
+
+            <!-- Project 5 -->
+            <a class="portfolio-card" href="https://github.com/PadminiG3404/Exploring-AlexNet-for-ImageNet-Classification">
+                <img src="assets/projects/class.jpg" alt="Image Classification">
+                <div class="portfolio-card-details">
+                    <h4>Image Classification Model</h4>
+                    <p>AlexNet | Transfer Learning | PyTorch</p>
+                </div>
+            </a>
+
+            <!-- Project 6 -->
+            <a class="portfolio-card" href="https://github.com/PadminiG3404/Neural-Architecture-Search-Driven-Optimization-of-Deep-Learning-Models-for-Drug-Response-Prediction">
+                <img src="assets/projects/nas.png" alt="NAS Framework">
+                <div class="portfolio-card-details">
+                    <h4>NAS Framework</h4>
+                    <p>Deep Learning | Q-Learning | Bayesian Optimization</p>
+                </div>
+            </a>
+
+            <!-- Project 7 -->
+            <a class="portfolio-card" href="">
+                <img src="assets/projects/unlearning.jpeg" alt="Machine Unlearning">
+                <div class="portfolio-card-details">
+                    <h4>Machine Unlearning Methodology</h4>
+                    <p>Privacy | Membership Inference Attacks | ResNet-18</p>
+                </div>
+            </a>
+
+            <!-- Project 8 -->
+            <a class="portfolio-card" href="#">
+                <img src="assets/projects/stylomorph.png" alt="Face Stylization">
+                <div class="portfolio-card-details">
+                    <h4>Face Stylization Model</h4>
+                    <p>StyleGAN2 | e4e | DLib | Real-time Processing</p>
+                </div>
+            </a>
+        </div>
+
+        <a href="https://github.com/PadminiG3404" target="_blank" data-text="MORE" class="link-more">MORE</a>
+
+        <!-- Experience Section -->
+<div class="section-experience" id="experience">
+    <div class="section-headings">
+        <h1 class="heading-stroke-only">Internships</h1>
+        <h1>& Training</h1>
+    </div>
+
+    <div class="experience-container">
+        <!-- Internship 1 -->
+        <div class="experience-card">
+            <div class="experience-logo">
+                <img src="assets/icons/aws.png" alt="AWS Logo">
+            </div>
+            <div class="experience-details">
+                <h4>AICTE - EduSkills Virtual Internship</h4>
+                <p><strong>Role:</strong> AWS Data Engineering Intern</p>
+                <p><strong>Duration:</strong> 8 Weeks (Ongoing)</p>
+                <p>Gained hands-on experience with AWS services, including ETL pipelines, data lakes, and cloud storage solutions.</p>
+            </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="experience-card">
+            <div class="experience-logo">
+                <img src="assets/icons/robokwik.png" alt="Robokwik Logo">
+            </div>
+            <div class="experience-details">
+                <h4>EISystems Services - Robokwik</h4>
+                <p><strong>Role:</strong> Web Development Intern</p>
+                <p><strong>Duration:</strong> 6 Weeks (Ongoing)</p>
+                <p>Developing responsive and interactive websites using HTML, CSS, JavaScript, and backend integration.</p>
+            </div>
+        </div>
+
+        <!-- Internship 3 -->
+        <div class="experience-card">
+            <div class="experience-logo">
+                <img src="assets/icons/infosys.png" alt="Infosys Logo">
+            </div>
+            <div class="experience-details">
+                <h4>Infosys - Pragati Path to Future</h4>
+                <p><strong>Role:</strong> AI/ML & Cloud Trainee</p>
+                <p><strong>Duration:</strong> 12 Weeks (Ongoing)</p>
+                <p>Engaged in industry-focused training on AI, ML, IT, cloud computing, and emerging technologies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- End of Section -->
+
+    <!-- section: Achievements & Publications -->
+    <div class="section-achievements" id="achievements">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Achievements</h1>
+            <h1>& Publications</h1>
+        </div>
+
+        <!-- Recognitions -->
+        <div class="achievements-category">
+            <h2>Recognitions</h2>
+            <div class="achievements-grid">
+                <a class="achievement-card" href="https://drive.google.com/file/d/1v9ecZxpS2KClHEdMgdGcou9qTmghRBBF/view?usp=sharing" target="_blank">
+                    <img src="assets/icons/techgyan.png" alt="Hackathon Logo">
+                    <div class="achievement-text">
+                        <h3>Front-End Web Development Hackathon Winner</h3>
+                        <p>Secured 1st place in TechGyan, BITS Pilani Hyderabad.</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="#" target="_blank">
+                    <img src="assets/icons/nxtwave.png" alt="NSDC Logo">
+                    <div class="achievement-text">
+                        <h3>NxtWave - NSDC Fellowship 2024</h3>
+                        <p>Selected for excellence in programming skills.</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1KgzbN3rQIgCbNN24jkR0BvBDmO1OH6Oo/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/shooting.png" alt="Start-a-thon Logo">
+                    <div class="achievement-text">
+                        <h3>All India Women Only Start-a-thon</h3>
+                        <p>Ranked Top 150 among 10,000+ participants.</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1nn-N128Ymw5wqBV62EzMGg65vXA62PlN/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/ieee.png" alt="IEEE Logo">
+                    <div class="achievement-text">
+                        <h3>Paper Presentation - IEEE DELCON 2024</h3>
+                        <p>Presented research at IEEE Delhi Section Conference, BVICAM.</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1sk4WOwz3bWyAIp-pvPcQO9fo0Xov68y2/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/elsevier.png" alt="ICECMSN Logo">
+                    <div class="achievement-text">
+                        <h3>Paper Presentation - ICECMSN 2024</h3>
+                        <p>Virtually presented research at ICECMSN Conference, HITECH.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Certifications -->
+        <div class="achievements-category">
+            <h2>Certifications</h2>
+            <div class="achievements-grid">
+                <a class="achievement-card" href="https://drive.google.com/file/d/1mFnfnVPrfleBQTq_q8QWOiGKIV-J7jPa/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/infosysspringboard.png" alt="Infosys Logo">
+                    <div class="achievement-text">
+                        <h3>Robotic Process Automation</h3>
+                        <p>Infosys Springboard - Scored 92% | Jan 2025</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1nkpOv7u6nFWn6E-8dwZUp0yB4Wcg4Yep/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/infosysspringboard.png" alt="Infosys Logo">
+                    <div class="achievement-text">
+                        <h3>Introduction to Data Science</h3>
+                        <p>Infosys Springboard - Scored 96% | Jan 2025</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1_UBGDsLjpYWEMAf-cCLJpA7TYb0bjT6W/view?usp=sharing" target="_blank">
+                    <img src="assets/icons/nptel.png" alt="NPTEL Logo">
+                    <div class="achievement-text">
+                        <h3>Soft Skills</h3>
+                        <p>NPTEL - Scored 84% | Oct 2024</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1IInN6623L_TjNsqqN3iMPY7_m9FTQEYy/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/nptel.png" alt="NPTEL Logo">
+                    <div class="achievement-text">
+                        <h3>Responsible & Safe AI Systems</h3>
+                        <p>NPTEL - Scored 76% | Oct 2024</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1lVhgE-mcrobCg658zJMrRmYYP98NpMyJ/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/nptel.png" alt="NPTEL Logo">
+                    <div class="achievement-text">
+                        <h3>Privacy & Security in Online Social Media</h3>
+                        <p>NPTEL - Scored 72% | April 2024</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1RSnK6w1u5dG8HuOHMWncJq919FaCCyV7/view?usp=sharing" target="_blank">
+                    <img src="assets/icons/nptel.png" alt="NPTEL Logo">
+                    <div class="achievement-text">
+                        <h3>The Joy of Computing using Python</h3>
+                        <p>NPTEL - Scored 82% | Dec 2023</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://drive.google.com/file/d/1XOdwGMu1mqpMDqiSDB_m6ldFSU7gd6jA/view?usp=drive_link" target="_blank">
+                    <img src="assets/icons/oracle.png" alt="Oracle Logo">
+                    <div class="achievement-text">
+                        <h3>Database Programming with SQL</h3>
+                        <p>Oracle Academy - Scored 92% | Dec 2023</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Publications -->
+        <div class="achievements-category">
+            <h2>Publications</h2>
+            <div class="achievements-grid">
+                <a class="achievement-card" href="https://ieeexplore.ieee.org/document/10866661" target="_blank">
+                    <img src="assets/icons/ieee.png" alt="IEEE Logo">
+                    <div class="achievement-text">
+                        <h3>One-Shot Stylization for Transformative Facial Art using StyloMorph</h3>
+                        <p>IEEE DELCON 2024 | DOI: 10.1109/DELCON64804.2024.10866661</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="https://www.sciencedirect.com/science/article/pii/S1877050924034513" target="_blank">
+                    <img src="assets/icons/elsevier.png" alt="Elsevier Logo">
+                    <div class="achievement-text">
+                        <h3>Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction</h3>
+                        <p>ICECMSN 2024 | Elsevier - Computer Science Procedia | DOI: 10.1016/j.procs.2024.12.019</p>
+                    </div>
+                </a>
+
+                <a class="achievement-card" href="#" target="_blank">
+                    <img src="assets/icons/ieee.png" alt="Elsevier Logo">
+                    <div class="achievement-text">
+                        <h3>Exploring the Impact of Neural Architecture Search on Human Pose Detection Techniques</h3>
+                        <p>IEEE INC4 2024 | In Communication</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- End of Section -->
+
+
+    <!-- section: contact -->
+    <div class="section-contact" id="contact">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Let's CONNECT</h1>
+        </div>
+        <div class="section-contact-links">
+            <!-- Personal Email -->
+            <a class="contact-link" href="mailto:pgudavalli2004@gmail.com">
+                <img src="./assets/icons/mail.svg" alt="Email Icon">
+                padminigudavalli@gmail.com
+            </a>
+
+            <!-- University Email -->
+            <a class="contact-link" href="mailto:22211a6642@bvrit.ac.in">
+                <img src="./assets/icons/mail.svg" alt="Email Icon">
+                22211a6642@bvrit.ac.in
+            </a>
+
+            <!-- Phone Number -->
+            <a class="contact-link" href="tel:+916301353259">
+                <img src="./assets/icons/call.png" alt="Phone Icon">
+                +91 6301353259
+            </a>
+
+            <!-- Location -->
+            <a class="contact-link" href="https://maps.google.com/?q=Hyderabad,India" target="_blank">
+                <img src="./assets/icons/location.svg" alt="Location Icon">
+                Hyderabad, India
+            </a>
+        </div>
+    </div>
+    <!-- section: contact -->
+
+
+    <!-- section: footer -->
+    <footer class="footer">
+        <div class="social-links" style="width: 100%; margin: auto;">
+            <a href="https://www.linkedin.com/in/padmini-gudavalli-226245259/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></svg>
+            </a>
+            <a href="https://github.com/PadminiG3404" class="social-link">
+                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/></svg>
+            </a>
+        </div>
+    </footer>
+    <!-- section: footer -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
