@@ -30,7 +30,7 @@ Welcome to my **personal e-portfolio website**! This is a modern, interactive, a
 - **GSAP / AOS (Optional for animations)**  
 
 ### **Tools & Platforms**  
-- **GitHub Pages / Netlify / Vercel** (For Deployment)  
+- **GitHub Pages** (For Deployment)  
 - **VS Code / PyCharm**  
 - **Google Colab / Jupyter**  
 - **Git & GitHub**  
