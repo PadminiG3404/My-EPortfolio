@@ -30,6 +30,26 @@ function erase() {
     }
 }
 
+
+function toggleResumeVideo() {
+    const photo = document.getElementById("profilePhoto");
+    const video = document.getElementById("resumeVideo");
+    const btn = document.querySelector(".play-btn");
+
+    if (photo.style.display !== "none") {
+        photo.style.display = "none";
+        video.style.display = "block";
+        video.play();
+        btn.innerText = "◀ Back to Profile";
+    } else {
+        video.pause();
+        video.currentTime = 0;
+        video.style.display = "none";
+        photo.style.display = "block";
+        btn.innerText = "▶ Watch Visume";
+    }
+}
+
 // Start the typing effect after page load
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(type, 500);
