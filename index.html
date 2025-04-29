@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padmini Gudavalli-Portfolio</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -110,26 +110,40 @@
         </div>
       </div>
       </div>
-    <!-- introduction to skills -->
-
-    <!-- section:about -->
+   
+    <!-- section: about -->
     <div class="section-about" id="about">
         <div class="section-headings">
             <h1 class="heading-stroke-only">About ME</h1>
         </div>
 
-        <div class="section-about-details">
-            
+        <div class="section-about-details about-flex">
+            <!-- Left: Image / Video -->
+            <div class="about-media">
+                <div class="media-container" id="mediaContainer">
+                    <img src="./assets/icons/profile.jpg" alt="Padmini Gudavalli" class="about-photo" id="profilePhoto">
+                    <video id="resumeVideo" class="resume-video" controls style="display: none;">
+                        <source src="./assets/videos/visual_resume.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="play-btn" onclick="toggleResumeVideo()">
+                        ▶ Watch Visume
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right: Text -->
             <div class="section-about-texts">
                 <h1>👋🏻 Hi there! I'm <span class="highlight">Padmini Gudavalli</span></h1>
                 <br>
                 <p>
-                    I'm a pre-final year <strong>B.Tech</strong> student at <strong>BVRIT-N</strong>, specializing in <strong>Artificial Intelligence & Machine Learning (AIML)</strong>. A tech enthusiast passionate about 
-                    <strong>problem-solving, innovation, and AI-driven solutions</strong>. I have strong skills in 
-                    <strong>programming, database management, and core AI/ML domains</strong>, with experience in 
+                    I'm a pre-final year <strong>B.Tech</strong> student at <strong>BVRIT-N</strong>, specializing in
+                    <strong>Artificial Intelligence & Machine Learning (AIML)</strong>. A tech enthusiast passionate about
+                    <strong>problem-solving, innovation, and AI-driven solutions</strong>. I have strong skills in
+                    <strong>programming, database management, and core AI/ML domains</strong>, with experience in
                     <strong>developing intelligent systems, optimizing performance, and tackling complex technical challenges</strong>.
-                    A fast learner</span> with <strong>strong communication, leadership, research, 
-                    and project management skills</strong>, I'm always eager to contribute, grow, and push boundaries with 
+                    A fast learner with <strong>strong communication, leadership, research,
+                    and project management skills</strong>, I'm always eager to contribute, grow, and push boundaries with
                     <strong>creativity and resilience</strong>.
                 </p>
                 <br>
@@ -138,9 +152,10 @@
                 </p>
                 <button class="Resume">
                     <a href="https://drive.google.com/file/d/1dPAagRRZkgXxuQo9ZiMflEgHcGkPEd9U/view?usp=drive_link" 
-                       target="_blank" 
-                       style="color: black; text-decoration: none;">Curriculam Vitae</a>
-                  </button>
+                    target="_blank"
+                    style="color: black; text-decoration: none;">Curriculum Vitae</a>
+                </button>
+
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/padmini-gudavalli-226245259/" target="_blank">
                         <img src="./assets/icons/linkedin.png" alt="LinkedIn" class="social-icon">
@@ -161,7 +176,7 @@
             </div>
         </div>
     </div>
-    <!-- section:about -->
+    <!-- end: about section -->
 
     <!-- Section: Qualifications & Expertise -->
     <div class="section-qualifications" id="qualifications">
@@ -669,7 +684,6 @@
 </div>
 
     <!-- End of Section -->
-
 
     <!-- section: contact -->
     <div class="section-contact" id="contact">
